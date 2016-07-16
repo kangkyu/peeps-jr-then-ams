@@ -52,6 +52,8 @@ GEM
     jbuilder (2.5.0)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
+    jsonapi-resources (0.7.0)
+      rails (>= 4.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -143,6 +145,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   jbuilder (~> 2.5)
+  jsonapi-resources
   listen (~> 3.0.5)
   puma (~> 3.0)
   rails (~> 5.0.0)
